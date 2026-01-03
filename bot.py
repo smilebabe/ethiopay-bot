@@ -12,7 +12,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Your bot token from @BotFather
-TOKEN = "8175654585:AAHkKi9IVa1C0vCknGHQ9ildFgsiwXvmXG4"
+TOKEN = 8175654585:AAHkKi9IVa1C0vCknGHQ9ildFgsiwXvmXG4,
 
 # Forex rates (update daily)
 FOREX_RATES = {
@@ -389,4 +389,5 @@ def main():
     application.run_polling(allowed_updates=Update.ALL_TYPES)
 
 if __name__ == '__main__':
+
     main()
